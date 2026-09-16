@@ -1,0 +1,69 @@
+FOTOS DE LA WEB
+===============
+
+Deja aquí las fotos, con estos nombres exactos. No hay que tocar
+ningún otro archivo: la web las detecta sola.
+
+
+  retrato        La foto de la sección "Quién te acompaña",
+                 al lado de la biografía.
+
+  portada        La foto grande de la portada, arriba a la derecha.
+                 Es opcional: si no la pones, se usa "retrato"
+                 también ahí.
+
+
+FORMATOS QUE VALEN
+------------------
+.webp  ·  .jpg  ·  .jpeg  ·  .png
+
+Sirve cualquiera de los cuatro. Si dejas dos con el mismo nombre
+(por ejemplo retrato.webp y retrato.jpg), se usa el .webp, que
+pesa menos.
+
+Ejemplos de nombres correctos:
+
+    retrato.jpg
+    retrato.webp
+    portada.jpg
+
+Ejemplos que NO funcionan:
+
+    Retrato.jpg          (con mayúscula)
+    retrato-marta.jpg    (con apellido detrás)
+    foto.jpg             (otro nombre)
+    IMG_4821.jpg         (el nombre de la cámara)
+
+
+CÓMO TIENE QUE SER LA FOTO
+--------------------------
+· Vertical. Los dos huecos son verticales (4:5 en la portada y
+  9:11 en la biografía).
+· Unos 1200 x 1500 píxeles va sobrado. Más grande no se ve
+  mejor: el hueco de la web mide 420 píxeles de ancho.
+· La cara, en el tercio superior: la parte de abajo se recorta
+  con la forma de arco.
+· IMPORTANTE, EL PESO: que no pase de 400 KB. Una foto tal y
+  como sale del móvil puede pesar 5 MB, y entonces la web tarda
+  varios segundos en enseñarla: mientras tanto se ve la
+  ilustración de colores y parece que la foto no funciona.
+  Para reducirla: arrástrala a squoosh.app, baja la calidad
+  hasta que marque menos de 400 KB y descárgala.
+
+
+SI NO PONES NINGUNA FOTO
+------------------------
+No pasa nada: se queda la ilustración de colores que trae la web,
+y todo sigue funcionando.
+
+
+¿QUIERES USAR OTRO NOMBRE?
+--------------------------
+Se puede, escribiendo la ruta a mano en lib/manifest.js, en el
+campo pro.photo. Pero entonces esa foto se usa en los dos sitios.
+Lo normal es no tocar nada y usar los nombres de arriba.
+
+
+(Este archivo está aquí también para que la carpeta no desaparezca
+al subirla a GitHub: Git no guarda carpetas vacías. Puedes
+borrarlo en cuanto haya una foto dentro.)

@@ -1,0 +1,134 @@
+/* =============================================================
+   COLORES DE LA WEB  ·  colores.css
+   -------------------------------------------------------------
+   Este es EL ÚNICO archivo que hay que tocar para cambiar el
+   aspecto de la web. Cambias un color aquí y cambia en toda la
+   página: botones, títulos, tarjetas, formulario y pie.
+
+   Hay seis paletas preparadas. Ahora mismo está activa la que
+   eligió la clienta en su ficha: VERDE SALVIA, ajustada al verde
+   de su logotipo (#4F7A5B) y al dorado de sus tarjetas.
+
+   Para cambiar de paleta:
+     1. Rodea con  /*  y  *​/  el bloque que está activo ahora.
+     2. Quita esas marcas del bloque que quieras activar.
+   Solo puede haber un bloque activo a la vez.
+
+   Los valores que terminan en -rgb son el mismo color escrito en
+   números sueltos. Los usa la web para hacer sombras y
+   transparencias. Si cambias un color, cambia también su -rgb.
+   ============================================================= */
+
+
+/* =============================================================
+   ▶ ACTIVA · 3. VERDE SALVIA
+     Natural y tranquila. Verde del logotipo, dorado suave de
+     acento y un fondo blanco roto cálido.
+   ============================================================= */
+:root {
+  --fondo:        #F3F2EC;     /* fondo general, blanco roto cálido */
+  --fondo-2:      #E8E7DE;     /* fondo de las secciones alternas   */
+  --papel:        #FBFAF6;     /* tarjetas, formulario              */
+  --tinta:        #212A23;     /* texto principal y secciones oscuras */
+  --tinta-2:      #4C564E;     /* texto secundario                  */
+  --tinta-3:      #79837B;     /* texto de apoyo, pistas            */
+  --acento:       #467052;     /* verde del logotipo: botones, títulos */
+  --acento-osc:   #37583F;     /* el mismo verde al pasar el ratón  */
+  --apoyo:        #B98F52;     /* dorado suave                      */
+  --apoyo-claro:  #D3B183;     /* dorado claro, sobre fondo oscuro  */
+  --suave:        #DCE0D4;     /* verde muy claro, fondos e ilustración */
+  --error:        #A8422C;     /* avisos del formulario             */
+
+  --fondo-rgb:    243 242 236;
+  --papel-rgb:    251 250 246;
+  --tinta-rgb:    33 42 35;
+  --acento-rgb:   70 112 82;
+  --apoyo-rgb:    185 143 82;
+  --suave-rgb:    220 224 212;
+}
+
+
+/* =============================================================
+   1. ARENA Y TERRACOTA
+     Cálida y cercana, con aire de revista.
+   =============================================================
+:root {
+  --fondo: #F7F1E8;  --fondo-2: #EFE5D7;  --papel: #FDFAF4;
+  --tinta: #241F1B;  --tinta-2: #5A5148;  --tinta-3: #8B8075;
+  --acento: #B25234; --acento-osc: #97442B;
+  --apoyo: #5E7060;  --apoyo-claro: #7F9079;
+  --suave: #E2C9AE;  --error: #A8422C;
+  --fondo-rgb: 247 241 232;  --papel-rgb: 253 250 244;
+  --tinta-rgb: 36 31 27;     --acento-rgb: 178 82 52;
+  --apoyo-rgb: 94 112 96;    --suave-rgb: 226 201 174;
+}
+   ============================================================= */
+
+
+/* =============================================================
+   2. BRUMA AZUL
+     Minimal y clínica. Serena y muy profesional.
+   =============================================================
+:root {
+  --fondo: #F4F6F8;  --fondo-2: #E7ECF1;  --papel: #FBFCFD;
+  --tinta: #1C2733;  --tinta-2: #4A5866;  --tinta-3: #7C8894;
+  --acento: #2F5D7C; --acento-osc: #244A64;
+  --apoyo: #7793A8;  --apoyo-claro: #9FB6C7;
+  --suave: #CFDCE6;  --error: #A8422C;
+  --fondo-rgb: 244 246 248;  --papel-rgb: 251 252 253;
+  --tinta-rgb: 28 39 51;     --acento-rgb: 47 93 124;
+  --apoyo-rgb: 119 147 168;  --suave-rgb: 207 220 230;
+}
+   ============================================================= */
+
+
+/* =============================================================
+   4. MALVA SERENO
+     Suave y acogedora.
+   =============================================================
+:root {
+  --fondo: #F6F2F6;  --fondo-2: #EBE3EC;  --papel: #FCFAFC;
+  --tinta: #2A2430;  --tinta-2: #574D5E;  --tinta-3: #877E8D;
+  --acento: #6B4E77; --acento-osc: #563E60;
+  --apoyo: #A8788D;  --apoyo-claro: #C9A7B7;
+  --suave: #E2D3E4;  --error: #A8422C;
+  --fondo-rgb: 246 242 246;  --papel-rgb: 252 250 252;
+  --tinta-rgb: 42 36 48;     --acento-rgb: 107 78 119;
+  --apoyo-rgb: 168 120 141;  --suave-rgb: 226 211 228;
+}
+   ============================================================= */
+
+
+/* =============================================================
+   5. NOCTURNO CÁLIDO
+     Fondo oscuro con acentos dorados. Elegante y poco común.
+     Ojo: esta paleta invierte claros y oscuros.
+   =============================================================
+:root {
+  --fondo: #14161C;  --fondo-2: #1B1E26;  --papel: #20242D;
+  --tinta: #F2EFEA;  --tinta-2: #C3C0BA;  --tinta-3: #8D8B87;
+  --acento: #E0A75E; --acento-osc: #C98F45;
+  --apoyo: #6E7F9B;  --apoyo-claro: #93A3BC;
+  --suave: #2C313C;  --error: #E0705A;
+  --fondo-rgb: 20 22 28;     --papel-rgb: 32 36 45;
+  --tinta-rgb: 242 239 234;  --acento-rgb: 224 167 94;
+  --apoyo-rgb: 110 127 155;  --suave-rgb: 44 49 60;
+}
+   ============================================================= */
+
+
+/* =============================================================
+   6. BEIGE Y BURDEOS
+     Editorial y clásica. Transmite trayectoria.
+   =============================================================
+:root {
+  --fondo: #F5F0EA;  --fondo-2: #EAE2D8;  --papel: #FCFAF7;
+  --tinta: #241C1C;  --tinta-2: #564B4B;  --tinta-3: #8A7E7E;
+  --acento: #7C2F3E; --acento-osc: #642531;
+  --apoyo: #B08D57;  --apoyo-claro: #C8AA7E;
+  --suave: #E3D5C3;  --error: #A8422C;
+  --fondo-rgb: 245 240 234;  --papel-rgb: 252 250 247;
+  --tinta-rgb: 36 28 28;     --acento-rgb: 124 47 62;
+  --apoyo-rgb: 176 141 87;   --suave-rgb: 227 213 195;
+}
+   ============================================================= */
